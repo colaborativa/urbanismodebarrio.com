@@ -3,6 +3,7 @@ layout: default
 title: "#UrbanismoDeBarrio"
 subtitulo: <span class='highlight'>Velá de la Fuensanta 2012</span>. 6 al 9 de Septiembre
 descripcion: "#UrbanismoDeBarrio quiere iniciar la recuperación del solar abandonado del antiguo Cine Fuensanta desde la participación vecinal, el debate y la acción colectiva. Se realizarán talleres y propondrán acciones para su recuperación ¡Te esperamos!"
+descripcion_corta: "#UrbanismoDeBarrio quiere iniciar la recuperación del solar abandonado del antiguo Cine Fuensanta desde la participación vecinal, el debate y la acción colectiva."
 creditos: 
  organizan: "Organizan: Colaborativa y Tercera Piel Arquitectura"
  colaboran: "Colaboran: Consejo Distrito Sureste, y AAVV Virgen de Linares"

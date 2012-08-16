@@ -1,9 +1,10 @@
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
+@import "fontface";
 @import "sharrre";
 
 body{
-	background: silver;
+	background-image: url("/img/purty_wood.png");
 }
 a:link, a:visited, a:hover{
 	text-decoration: none;
@@ -26,7 +27,7 @@ a:link, a:visited, a:hover{
 }
 .contenedor{
 	width:980px;
-	margin: 20px auto;
+	margin: 30px auto 50px auto;
 	background: url(/img/fondo-y-repeat.png);
 	@include box-shadow(rgba(0,0,0,0.75) 0px 0px 5px);
 	position:relative;
