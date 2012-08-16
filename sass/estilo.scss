@@ -1,0 +1,131 @@
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+@import "sharrre";
+
+body{
+	background: silver;
+}
+a:link, a:visited, a:hover{
+	text-decoration: none;
+	color: black
+}
+
+.highlight {
+	left: -3px;
+	background-image: url(/img/highlight.png);
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 0px 0px;
+	margin-left: -5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 105%;
+	line-height: 200%;
+	overflow: visible;
+	height: 32px;
+}
+.contenedor{
+	width:980px;
+	margin: 20px auto;
+	background: url(/img/fondo-y-repeat.png);
+	@include box-shadow(rgba(0,0,0,0.75) 0px 0px 5px);
+	position:relative;
+	header{
+		@include clearfix;
+		width:780px;
+		margin:20px 90px 20px 110px;
+		.creditos{
+			width:780px;
+			margin-top:30px;
+			p{
+				font: 12px/20px 'Open Sans', sans-serif;
+				margin:0px;
+				padding:0px;
+			}
+		}
+		hgroup{
+			margin-top: 80px;
+			text-align: center;
+			h1{
+				
+			}
+			h2{
+				font: 32px/22px 'Neucha', cursive;
+			}
+		}
+		p{
+			display: block;
+			font: 18px/28px 'Open Sans', sans-serif;
+			text-align: center;
+		}
+
+	}
+	section{
+		@include clearfix;
+		width:780px;
+		margin:20px 90px 20px 110px;
+		h1{
+			font: 32px/22px 'Neucha', cursive;
+			text-align: center;
+			padding-bottom: 20px;
+			background: url(/img/linea-a-mano-3px.png) center bottom no-repeat;
+		}
+		article{
+			width:780px;
+			margin: 25px 0px;
+			padding: 25px 0px;
+			@include clearfix;
+			position: relative;
+			background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
+			.horario{
+				width: 375px;
+				float: left;
+				margin-right:30px;
+				.fecha{
+					display: block;
+					font: 22px/22px 'Neucha', cursive;
+					text-align: right;
+				}
+				.hora{
+					display: block;
+					font: 18px/23px 'Open Sans', sans-serif;
+					text-align: right;
+				}
+				.inscripcion{
+					position: absolute;
+					bottom: 25px;
+					display: block;
+					font: 18px/18px 'Open Sans', sans-serif;
+					text-align: right;
+					width: 375px
+				}
+			}
+			.informacion{
+				width: 375px;
+				float: left;
+				h1{
+					background: none;
+					font: 22px/22px 'Neucha', cursive;
+					text-align: left;
+					border-bottom: none;
+					margin: 0px;
+					padding: 0px 0px 0px 0px;
+				}
+				p{
+					font: 14px/23px 'Open Sans', sans-serif;
+				}
+			}
+		}
+	}
+	footer{
+		width:980px;
+		height:60px;
+		background: url(/img/fondo-fin-y-repeat.png) no-repeat;
+		a{
+			display: block;
+			width:980px;
+			text-align: center;
+			font: 12px/23px 'Open Sans', sans-serif;
+		}
+	}
+}

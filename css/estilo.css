@@ -1,0 +1,290 @@
+/* line 1, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales {
+  height: 82px;
+}
+/* line 3, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales #example1 {
+  display: table;
+  margin: 0px auto;
+}
+/* line 6, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales #example1 .sharrre {
+  margin: 0px 15px 0 15px;
+  float: left;
+}
+/* line 9, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .box a:hover {
+  text-decoration: none;
+}
+/* line 12, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .count {
+  color: #525b67;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  width: 70px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #b2c6cc;
+  background: #fbfbfb;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fbfbfb 0%, #f6f6f6 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #f6f6f6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fbfbfb 0%, #f6f6f6 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fbfbfb 0%, #f6f6f6 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fbfbfb 0%, #f6f6f6 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #fbfbfb 0%, #f6f6f6 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#f6f6f6',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 34, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .count.count:before, .botonesSociales #example1 .sharrre .count.count:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 49%;
+  width: 0;
+  height: 0;
+}
+/* line 42, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .count.count:before {
+  border: solid 7px transparent;
+  border-top-color: #b2c6cc;
+  margin-left: -7px;
+  bottom: -14px;
+}
+/* line 48, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .count.count:after {
+  border: solid 6px transparent;
+  margin-left: -6px;
+  bottom: -12px;
+  border-top-color: #fbfbfb;
+}
+/* line 55, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .share {
+  color: #FFFFFF;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 8px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 70px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 76, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+#twitter .share {
+  text-shadow: 1px 0px 0px #0077be;
+  filter: dropshadow(color=#0077be, offx=1, offy=0);
+  border: 1px solid #0075c5;
+  background: #26c3eb;
+  background: -moz-linear-gradient(top, #26c3eb 0%, #26b3e6 50%, #00a2e1 51%, #0080d6 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #26c3eb), color-stop(50%, #26b3e6), color-stop(51%, #00a2e1), color-stop(100%, #0080d6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #26c3eb 0%, #26b3e6 50%, #00a2e1 51%, #0080d6 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #26c3eb 0%, #26b3e6 50%, #00a2e1 51%, #0080d6 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #26c3eb 0%, #26b3e6 50%, #00a2e1 51%, #0080d6 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #26c3eb 0%, #26b3e6 50%, #00a2e1 51%, #0080d6 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26c3eb', endColorstr='#0080d6',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: 0 1px 4px #DDDDDD, 0 1px 0 #5cd3f1 inset;
+}
+
+/* line 90, /Users/javito/Library/WebServer/Documents/www.urbanismodebarrio.com/sass/sharrre.scss */
+#facebook .share {
+  text-shadow: 1px 0px 0px #26427e;
+  filter: dropshadow(color=#26427e, offx=1, offy=0);
+  border: 1px solid #24417c;
+  background: #5582c9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #5582c9 0%, #33539a 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5582c9), color-stop(100%, #33539a));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #5582c9 0%, #33539a 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #5582c9 0%, #33539a 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #5582c9 0%, #33539a 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #5582c9 0%, #33539a 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5582c9', endColorstr='#33539a',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: 0 1px 4px #DDDDDD, 0 1px 0 #80a1d6 inset;
+}
+
+/* line 5, ../sass/estilo.scss */
+body {
+  background: silver;
+}
+
+/* line 8, ../sass/estilo.scss */
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 13, ../sass/estilo.scss */
+.highlight {
+  left: -3px;
+  background-image: url(/img/highlight.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 0px 0px;
+  margin-left: -5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 105%;
+  line-height: 200%;
+  overflow: visible;
+  height: 32px;
+}
+
+/* line 27, ../sass/estilo.scss */
+.contenedor {
+  width: 980px;
+  margin: 20px auto;
+  background: url(/img/fondo-y-repeat.png);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 5px;
+  position: relative;
+}
+/* line 33, ../sass/estilo.scss */
+.contenedor header {
+  overflow: hidden;
+  *zoom: 1;
+  width: 780px;
+  margin: 20px 90px 20px 110px;
+}
+/* line 37, ../sass/estilo.scss */
+.contenedor header .creditos {
+  width: 780px;
+  margin-top: 30px;
+}
+/* line 40, ../sass/estilo.scss */
+.contenedor header .creditos p {
+  font: 12px/20px "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 46, ../sass/estilo.scss */
+.contenedor header hgroup {
+  margin-top: 80px;
+  text-align: center;
+}
+/* line 52, ../sass/estilo.scss */
+.contenedor header hgroup h2 {
+  font: 32px/22px "Neucha", cursive;
+}
+/* line 56, ../sass/estilo.scss */
+.contenedor header p {
+  display: block;
+  font: 18px/28px "Open Sans", sans-serif;
+  text-align: center;
+}
+/* line 63, ../sass/estilo.scss */
+.contenedor section {
+  overflow: hidden;
+  *zoom: 1;
+  width: 780px;
+  margin: 20px 90px 20px 110px;
+}
+/* line 67, ../sass/estilo.scss */
+.contenedor section h1 {
+  font: 32px/22px "Neucha", cursive;
+  text-align: center;
+  padding-bottom: 20px;
+  background: url(/img/linea-a-mano-3px.png) center bottom no-repeat;
+}
+/* line 73, ../sass/estilo.scss */
+.contenedor section article {
+  width: 780px;
+  margin: 25px 0px;
+  padding: 25px 0px;
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+  background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
+}
+/* line 80, ../sass/estilo.scss */
+.contenedor section article .horario {
+  width: 375px;
+  float: left;
+  margin-right: 30px;
+}
+/* line 84, ../sass/estilo.scss */
+.contenedor section article .horario .fecha {
+  display: block;
+  font: 22px/22px "Neucha", cursive;
+  text-align: right;
+}
+/* line 89, ../sass/estilo.scss */
+.contenedor section article .horario .hora {
+  display: block;
+  font: 18px/23px "Open Sans", sans-serif;
+  text-align: right;
+}
+/* line 94, ../sass/estilo.scss */
+.contenedor section article .horario .inscripcion {
+  position: absolute;
+  bottom: 25px;
+  display: block;
+  font: 18px/18px "Open Sans", sans-serif;
+  text-align: right;
+  width: 375px;
+}
+/* line 103, ../sass/estilo.scss */
+.contenedor section article .informacion {
+  width: 375px;
+  float: left;
+}
+/* line 106, ../sass/estilo.scss */
+.contenedor section article .informacion h1 {
+  background: none;
+  font: 22px/22px "Neucha", cursive;
+  text-align: left;
+  border-bottom: none;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+}
+/* line 114, ../sass/estilo.scss */
+.contenedor section article .informacion p {
+  font: 14px/23px "Open Sans", sans-serif;
+}
+/* line 120, ../sass/estilo.scss */
+.contenedor footer {
+  width: 980px;
+  height: 60px;
+  background: url(/img/fondo-fin-y-repeat.png) no-repeat;
+}
+/* line 124, ../sass/estilo.scss */
+.contenedor footer a {
+  display: block;
+  width: 980px;
+  text-align: center;
+  font: 12px/23px "Open Sans", sans-serif;
+}
