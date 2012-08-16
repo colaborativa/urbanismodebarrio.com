@@ -2,8 +2,9 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
+	Javier Burón -- diseño, programación e ilustraciones -- @javiburon
+	Magda Sánchez -- contenidos -- @msanchezmora
+	Francisco Carmona -- contenidos -- @tercerapiel
 
 # THANKS
 
@@ -11,5 +12,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, Jekyll
     jQuery, Modernizr
