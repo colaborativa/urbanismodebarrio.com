@@ -38,5 +38,5 @@ actividad:
    inscripcion: {titulo: ¡Inscríbelos gratis!, url: http://eventbrite.es}
    descripcion: "Hemos preparado una actividad para que los más pequeños conozcan la importancia del espacio público en nuestros barrios y participen en la transformación del solar. La actividad estará coordinada por Mr. Pedagoga, educadora infantil, comenzará a las 10:30 en el solar y terminará para la huevada de las 12:00 en el Pocito."
 
-footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapiel · El código fuente está compartido con <a href=''>licencia MIT</a>, los textos e imágenes con licencia <a href=''>CC BY 3.0.</a> </br> Diseñado y hecho en <a href=''>Córdoba, Andalucía</a> · Hecho con <a href=''>github pages</a>, <a href=''>jekyll</a>, <a href=''>SASS</a>, <a href=''>Compass</a> y <a href=''>Sharrre</a>"
+footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapiel · Código fuente compartido con licencia <a href=''> MIT</a>, textos e imágenes con licencia <a href=''>CC BY 3.0.</a> </br> Diseñado y hecho en <a href=''>Córdoba, Andalucía</a> · Hecho con <a href=''>github pages</a>, <a href=''>jekyll</a>, <a href=''>SASS</a>, <a href=''>Compass</a> y <a href=''>Sharrre</a>"
 ---
