@@ -24,6 +24,10 @@ a:link, a:visited, a:hover{
 	line-height: 200%;
 	overflow: visible;
 	height: 32px;
+	@include transition(all .1s linear);
+	&:hover{
+		opacity: 0.8;
+	};
 }
 .contenedor{
 	width:980px;
@@ -42,19 +46,28 @@ a:link, a:visited, a:hover{
 				font: 12px/20px 'Open Sans', sans-serif;
 				margin:0px;
 				padding:0px;
+				a:link{
+					@include transition(text-decoration .1s linear);
+				}
+				a:hover{
+					text-decoration: underline;
+				}
 			}
 		}
 		hgroup{
-			margin-top: 80px;
+			margin-top: 50px;
 			text-align: center;
 			h1{
-				
+				font: 64px 'FFF Tusj';
+				margin: 0px 0px;
 			}
 			h2{
-				font: 32px/22px 'Neucha', cursive;
+				margin: 0px 0px;
+				font: 32px/22px 'FFF Tusj';
 			}
 		}
 		p{
+			margin: 5px 0px 35px 0px;
 			display: block;
 			font: 18px/28px 'Open Sans', sans-serif;
 			text-align: center;
@@ -66,7 +79,7 @@ a:link, a:visited, a:hover{
 		width:780px;
 		margin:20px 90px 20px 110px;
 		h1{
-			font: 32px/22px 'Neucha', cursive;
+			font: 32px/22px 'FFF Tusj';
 			text-align: center;
 			padding-bottom: 20px;
 			background: url(/img/linea-a-mano-3px.png) center bottom no-repeat;
@@ -79,15 +92,17 @@ a:link, a:visited, a:hover{
 			position: relative;
 			background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
 			.horario{
+				@include clearfix;
 				width: 375px;
 				float: left;
 				margin-right:30px;
 				.fecha{
 					display: block;
-					font: 22px/22px 'Neucha', cursive;
+					font: 24px/22px 'FFF Tusj';
 					text-align: right;
 				}
 				.hora{
+					margin-top:3px;
 					display: block;
 					font: 18px/23px 'Open Sans', sans-serif;
 					text-align: right;
@@ -106,7 +121,7 @@ a:link, a:visited, a:hover{
 				float: left;
 				h1{
 					background: none;
-					font: 22px/22px 'Neucha', cursive;
+					font: 24px/22px 'FFF Tusj';
 					text-align: left;
 					border-bottom: none;
 					margin: 0px;
@@ -118,15 +133,30 @@ a:link, a:visited, a:hover{
 			}
 		}
 	}
-	footer{
+	.piePagina{
 		width:980px;
 		height:60px;
 		background: url(/img/fondo-fin-y-repeat.png) no-repeat;
-		a{
-			display: block;
-			width:980px;
-			text-align: center;
-			font: 12px/23px 'Open Sans', sans-serif;
+	}
+}
+footer{
+	width:980px;
+	margin: 30px auto 50px auto;
+	text-align: center;
+	font: 12px/20px 'Open Sans', sans-serif;
+	p{
+		display: block;
+		color: #5a3817;
+		width:980px;
+		text-align: center;
+		font: 12px/23px 'Open Sans', sans-serif;
+		text-shadow: 0 1px rgba(255,255,255,0.6);
+		a:link, a:visited{
+			color: #5a3817;
+			font-weight:bold;
+		}
+		a:hover{
+			text-decoration: underline;
 		}
 	}
 }

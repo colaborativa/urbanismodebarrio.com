@@ -37,7 +37,7 @@
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  border: 1px solid #b2c6cc;
+  border: 1px solid #b2b2b2;
   background: none;
 }
 /* line 26, ../sass/sharrre.scss */
@@ -52,7 +52,7 @@
 /* line 34, ../sass/sharrre.scss */
 .botonesSociales #example1 .sharrre .count.count:before {
   border: solid 7px transparent;
-  border-top-color: #b2c6cc;
+  border-top-color: #b2b2b2;
   margin-left: -7px;
   bottom: -14px;
 }
@@ -61,7 +61,7 @@
   border: solid 6px transparent;
   margin-left: -6px;
   bottom: -12px;
-  border-top-color: #fbfbfb;
+  border-top-color: white;
 }
 /* line 47, ../sass/sharrre.scss */
 .botonesSociales #example1 .sharrre .share {
@@ -119,9 +119,18 @@ a:link, a:visited, a:hover {
   line-height: 200%;
   overflow: visible;
   height: 32px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 28, ../sass/estilo.scss */
+.highlight:hover {
+  opacity: 0.8;
 }
 
-/* line 28, ../sass/estilo.scss */
+/* line 32, ../sass/estilo.scss */
 .contenedor {
   width: 980px;
   margin: 30px auto 50px auto;
@@ -131,54 +140,73 @@ a:link, a:visited, a:hover {
   box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 5px;
   position: relative;
 }
-/* line 34, ../sass/estilo.scss */
+/* line 38, ../sass/estilo.scss */
 .contenedor header {
   overflow: hidden;
   *zoom: 1;
   width: 780px;
   margin: 20px 90px 20px 110px;
 }
-/* line 38, ../sass/estilo.scss */
+/* line 42, ../sass/estilo.scss */
 .contenedor header .creditos {
   width: 780px;
   margin-top: 30px;
 }
-/* line 41, ../sass/estilo.scss */
+/* line 45, ../sass/estilo.scss */
 .contenedor header .creditos p {
   font: 12px/20px "Open Sans", sans-serif;
   margin: 0px;
   padding: 0px;
 }
-/* line 47, ../sass/estilo.scss */
-.contenedor header hgroup {
-  margin-top: 80px;
-  text-align: center;
+/* line 49, ../sass/estilo.scss */
+.contenedor header .creditos p a:link {
+  -webkit-transition: text-decoration 0.1s linear;
+  -moz-transition: text-decoration 0.1s linear;
+  -ms-transition: text-decoration 0.1s linear;
+  -o-transition: text-decoration 0.1s linear;
+  transition: text-decoration 0.1s linear;
 }
-/* line 53, ../sass/estilo.scss */
-.contenedor header hgroup h2 {
-  font: 32px/22px "Neucha", cursive;
+/* line 52, ../sass/estilo.scss */
+.contenedor header .creditos p a:hover {
+  text-decoration: underline;
 }
 /* line 57, ../sass/estilo.scss */
+.contenedor header hgroup {
+  margin-top: 50px;
+  text-align: center;
+}
+/* line 60, ../sass/estilo.scss */
+.contenedor header hgroup h1 {
+  font: 64px 'FFF Tusj';
+  margin: 0px 0px;
+}
+/* line 64, ../sass/estilo.scss */
+.contenedor header hgroup h2 {
+  margin: 0px 0px;
+  font: 32px/22px "FFF Tusj";
+}
+/* line 69, ../sass/estilo.scss */
 .contenedor header p {
+  margin: 5px 0px 35px 0px;
   display: block;
   font: 18px/28px "Open Sans", sans-serif;
   text-align: center;
 }
-/* line 64, ../sass/estilo.scss */
+/* line 77, ../sass/estilo.scss */
 .contenedor section {
   overflow: hidden;
   *zoom: 1;
   width: 780px;
   margin: 20px 90px 20px 110px;
 }
-/* line 68, ../sass/estilo.scss */
+/* line 81, ../sass/estilo.scss */
 .contenedor section h1 {
-  font: 32px/22px "Neucha", cursive;
+  font: 32px/22px "FFF Tusj";
   text-align: center;
   padding-bottom: 20px;
   background: url(/img/linea-a-mano-3px.png) center bottom no-repeat;
 }
-/* line 74, ../sass/estilo.scss */
+/* line 87, ../sass/estilo.scss */
 .contenedor section article {
   width: 780px;
   margin: 25px 0px;
@@ -188,25 +216,28 @@ a:link, a:visited, a:hover {
   position: relative;
   background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
 }
-/* line 81, ../sass/estilo.scss */
+/* line 94, ../sass/estilo.scss */
 .contenedor section article .horario {
+  overflow: hidden;
+  *zoom: 1;
   width: 375px;
   float: left;
   margin-right: 30px;
 }
-/* line 85, ../sass/estilo.scss */
+/* line 99, ../sass/estilo.scss */
 .contenedor section article .horario .fecha {
   display: block;
-  font: 22px/22px "Neucha", cursive;
+  font: 24px/22px "FFF Tusj";
   text-align: right;
 }
-/* line 90, ../sass/estilo.scss */
+/* line 104, ../sass/estilo.scss */
 .contenedor section article .horario .hora {
+  margin-top: 3px;
   display: block;
   font: 18px/23px "Open Sans", sans-serif;
   text-align: right;
 }
-/* line 95, ../sass/estilo.scss */
+/* line 110, ../sass/estilo.scss */
 .contenedor section article .horario .inscripcion {
   position: absolute;
   bottom: 25px;
@@ -215,34 +246,53 @@ a:link, a:visited, a:hover {
   text-align: right;
   width: 375px;
 }
-/* line 104, ../sass/estilo.scss */
+/* line 119, ../sass/estilo.scss */
 .contenedor section article .informacion {
   width: 375px;
   float: left;
 }
-/* line 107, ../sass/estilo.scss */
+/* line 122, ../sass/estilo.scss */
 .contenedor section article .informacion h1 {
   background: none;
-  font: 22px/22px "Neucha", cursive;
+  font: 24px/22px "FFF Tusj";
   text-align: left;
   border-bottom: none;
   margin: 0px;
   padding: 0px 0px 0px 0px;
 }
-/* line 115, ../sass/estilo.scss */
+/* line 130, ../sass/estilo.scss */
 .contenedor section article .informacion p {
   font: 14px/23px "Open Sans", sans-serif;
 }
-/* line 121, ../sass/estilo.scss */
-.contenedor footer {
+/* line 136, ../sass/estilo.scss */
+.contenedor .piePagina {
   width: 980px;
   height: 60px;
   background: url(/img/fondo-fin-y-repeat.png) no-repeat;
 }
-/* line 125, ../sass/estilo.scss */
-.contenedor footer a {
+
+/* line 142, ../sass/estilo.scss */
+footer {
+  width: 980px;
+  margin: 30px auto 50px auto;
+  text-align: center;
+  font: 12px/20px "Open Sans", sans-serif;
+}
+/* line 147, ../sass/estilo.scss */
+footer p {
   display: block;
+  color: #5a3817;
   width: 980px;
   text-align: center;
   font: 12px/23px "Open Sans", sans-serif;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.6);
+}
+/* line 154, ../sass/estilo.scss */
+footer p a:link, footer p a:visited {
+  color: #5a3817;
+  font-weight: bold;
+}
+/* line 158, ../sass/estilo.scss */
+footer p a:hover {
+  text-decoration: underline;
 }

@@ -21,3 +21,6 @@ $('#facebook').sharrre({
     api.openPopup('facebook');
   }
 });
+twttr.anywhere(function (T) {
+	T.hovercards();
+});
