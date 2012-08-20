@@ -78,11 +78,24 @@ a:link, a:visited, a:hover{
 		@include clearfix;
 		width:780px;
 		margin:20px 90px 20px 110px;
-		h1{
-			font: 32px/22px 'FFF Tusj';
+		hgroup{
 			text-align: center;
-			padding-bottom: 20px;
+			margin: 0px;
+			padding-bottom: 30px;
 			background: url(/img/linea-a-mano-3px.png) center bottom no-repeat;
+			h1{
+				font: 32px/22px 'FFF Tusj';
+				padding-bottom:10px;
+				margin: 0px;
+			}
+			h2{
+				margin: 0px;
+				font: 18px/24px 'Open Sans', sans-serif;
+			}
+		}
+		p.notapie{
+			text-align: center;
+			font: 14px/20px 'Open Sans', sans-serif;
 		}
 		article{
 			width:780px;
@@ -158,5 +171,88 @@ footer{
 		a:hover{
 			text-decoration: underline;
 		}
+	}
+}
+
+
+@media print {
+	@page  { 
+		size: auto;
+		width:100%;
+		margin: 10mm 10mm 10mm 10mm;  
+	}
+	.botonesSociales, footer, .piePagina{
+		display: none;
+	}
+	a:link:after, a:visited:after {
+	    content: "";
+	}
+	body  { 
+		width:100%;
+		@include box-sizing (border-box);
+		margin: 0mm 0mm 0mm 0mm;
+		padding: 0mm 0mm 0mm 0mm;
+		.contenedor{
+			header{
+				width:100%;
+				margin: 0mm 0mm 7mm 0mm;
+				padding: 0mm 0mm 0mm 0mm;
+				.creditos{
+					width:100%;
+					margin: 0mm 0mm 7mm 0mm;
+					padding: 0mm 0mm 0mm 0mm;
+				}
+				hgroup{
+					width:100%;
+					margin: 0mm 0mm 0mm 0mm;
+					padding: 0mm 0mm 0mm 0mm;
+					h1{
+						width:100%;
+						margin: 0mm 0mm 0mm 0mm;
+						padding: 0mm 0mm 0mm 0mm;
+					}
+					h2{
+						width:100%;
+						margin: 0mm 0mm 0mm 0mm;
+						padding: 0mm 0mm 0mm 0mm;
+					}
+				}
+			}
+			section{
+				width:100%;
+				margin: 0cm;
+				padding: 0cm;
+				h1{
+					margin: 0cm 0cm 1cm 0cm;
+					padding: 0cm 0cm 1cm 0cm;
+					border-bottom: 1pt dotted black;
+				}
+				article{
+					width: 100%;
+					margin: 1cm 0cm 0.75cm 0cm;
+					padding: 0cm 0cm 0.5cm 0cm;
+					border-bottom: 1pt dotted silver;
+					.horario{
+						@include box-sizing (border-box);
+						margin: 0cm;
+						padding: 0cm;
+						width:50%;
+						padding-right: 1cm;
+						.inscripcion{
+							@include box-sizing (border-box);
+							margin: 0cm;
+							padding: 0cm;
+							width:50%;
+							padding-right: 1cm;
+						}
+					}
+					.informacion{
+						margin: 0cm;
+						padding: 0cm;
+						width:50%;
+					}
+				}
+			}
+		}	
 	}
 }

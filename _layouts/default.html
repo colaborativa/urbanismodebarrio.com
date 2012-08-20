@@ -38,7 +38,10 @@
 				</div>
 			</header>
 			<section>
-				<h1>Programación</h1>
+				<hgroup>
+					<h1>Programación</h1>
+					<h2>{{ page.nota_inicial}}</h2>
+				</hgroup>
 				{% for item in page.actividad %}
 					<article>
 						<div class="horario">
@@ -56,6 +59,7 @@
 						</div>
 					</article>
 				{% endfor %}
+				<p class="notapie">{{ page.nota_final}}</p>
 			</section>
 			<div class="piePagina">
 			</div>
