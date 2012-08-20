@@ -51,6 +51,9 @@ a:link, a:visited, a:hover{
 		.print{
 			padding: 0px; 
 			margin: 0px;
+			a:hover{
+				text-decoration: underline;
+			}
 		}
 	}
 }

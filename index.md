@@ -7,7 +7,7 @@ descripcion_corta: "#UrbanismoDeBarrio quiere iniciar la recuperación del solar
 creditos: 
  organizan: "Organizan: <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>"
  colaboran: "Colaboran: <a href='http://consejodistritosureste.blogspot.com.es/'><strong>Consejo Distrito Sureste</strong></a>, y AAVV Virgen de Linares"
-
+imprimir_notificacion: "Necesitamos tu ayuda para difundir la actividad, haz click para imprimir el poster y colócalo por el barrio ¡Muchas gracias!"
 
 actividad:
  - titulo: Paseo guiado por el barrio
