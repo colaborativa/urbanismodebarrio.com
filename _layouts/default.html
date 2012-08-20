@@ -20,6 +20,11 @@
 		<!--[if lt IE 7]>
 			<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
 		<![endif]-->
+		<div class="imprimir">
+			<p>
+				<span class="icon-print"></span><span class="print"><a href="javascript:window.print()">Imprime el poster de la actividad, colócalo por el barrio y ayudarnos a darla a conocer ¡Muchas gracias!</a></span>
+			</p>
+		</div>
 		<div class="contenedor">
 			<header>
 				<div class="creditos">
@@ -59,7 +64,7 @@
 						</div>
 					</article>
 				{% endfor %}
-				<p class="notapie">{{ page.nota_final}}</p>
+				<p class="notapie">{{ page.nota_final}} <span class="nota_web">{{ page.nota_final_web}}</span><span class="nota_impresa">{{ page.nota_final_impresa}}</span></p>
 			</section>
 			<div class="piePagina">
 			</div>

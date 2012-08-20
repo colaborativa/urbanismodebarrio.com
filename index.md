@@ -40,10 +40,9 @@ actividad:
 
 footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapiel · Código fuente compartido con licencia <a href=''> MIT</a>, textos e imágenes con licencia <a href=''>CC BY 3.0.</a> </br> Diseñado y hecho en <a href=''>Córdoba, Andalucía</a> · Hecho con <a href=''>github pages</a>, <a href=''>jekyll</a>, <a href=''>SASS</a>, <a href=''>Compass</a> y <a href=''>Sharrre</a>"
 
-
-nota_inicial: "Todas las actividades tienen lugar en el <span class='highlight'><a href='http://goo.gl/maps/Ka4hT'>solar del antiguo Cine Fuensanta</a></span> en la calle Hernando de Magallanes (detrás del centro de adultos Fuensanta)"
+nota_inicial: "Todas las actividades tienen lugar en el <span class='highlight'><a href='http://goo.gl/maps/Ka4hT'>solar del antiguo Cine Fuensanta</a></span> en la calle Hernando de Magallanes <span class='ocultaImprime'>(detrás del centro de adultos Fuensanta)</span>"
 
 nota_final: "Para coordinar mejor las actividades te agradecemos que realices la inscripción. No obstante, también puedes presentarte directamente en el solar el mismo día de la actividad."
-
-
+nota_final_web: "Puedes contactar con nosotros a través de <a href='#'>Facebook</a> o email <a href='#'>[arroba]urbanismodebarrio.com</a>"
+nota_final_impresa: "Para más información y reservar tu plaza visita <a href='#'>www.urbanismodebarrio.com</a>"
 ---
