@@ -15,7 +15,7 @@ actividad:
     fecha: {natural: 6 de Septiembre, formateada: 2012-09-06 }
     hora: " De 20:30 a 21:30"
    inscripcion: {titulo: sin inscripción previa }
-   descripcion: "¿Quieres conocer más sobre la Fuensanta y el solar que recuperaremos? ¿Tienes <span class='highlight'>fotos antiguas</span> y quieres compartirlas con nosotros? <strong>Mr. Guía, historiador y vecino de la Fuensanta,</strong> nos acompañará en un paseo que comenzará en el <a href='http://tiles.mapbox.com/colaborativa/map/map-9wllrvbl'>solar</a> las 20:30 y terminará a las 21:30 en el Pocito para la lectura del pregón inaugural."
+   descripcion: "¿Quieres conocer más sobre la Fuensanta y el solar que recuperaremos? ¿Tienes <span class='highlight'>fotos antiguas</span> y quieres compartirlas con nosotros? <strong>Mr. Guía, historiador y vecino de la Fuensanta,</strong> nos acompañará en un paseo que comenzará en el solar las 20:30 y terminará a las 21:30 en el Pocito para la lectura del pregón inaugural."
  - titulo: Taller de mobiliario urbano reciclado
    horario: 
     fecha: {natural: 7 de Septiembre, formateada: 2012-09-07 }
