@@ -14,7 +14,7 @@ actividad:
     fecha: {natural: 6 de Septiembre, formateada: 2012-09-06 }
     hora: " De 20:30 a 21:30"
    inscripcion: {titulo: sin inscripción previa }
-   descripcion: "¿Quieres conocer más sobre la Fuensanta y el solar que recuperaremos? ¿Tienes <span class='highlight'>fotos antiguas</span> y quieres compartirlas con nosotros? <strong>Mr. Guía, historiador y vecino de la Fuensanta,</strong> nos acompañará en un paseo que comenzará en el solar las 20:30 y terminará a las 21:30 en el Pocito para la lectura del pregón inaugural."
+   descripcion: "¿Quieres conocer más sobre la Fuensanta y el solar que recuperaremos? ¿Tienes <span class='highlight'>fotos antiguas</span> y quieres compartirlas con nosotros? <strong>Mr. X, historiador y vecino de la Fuensanta,</strong> nos acompañará en un paseo que comenzará en el solar las 20:30 y terminará a las 21:30 en el Pocito para la lectura del pregón inaugural."
  - titulo: Taller de mobiliario urbano reciclado
    horario: 
     fecha: {natural: 7 de Septiembre, formateada: 2012-09-07 }
@@ -27,7 +27,7 @@ actividad:
     fecha: {natural: 8 de Septiembre, formateada: 2012-09-08 }
     hora: "De 10:00 a 12:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://eventbrite.es}
-   descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sapien nisi, id consequat elit. Morbi suscipit varius magna, sed fringilla velit scelerisque quis. Etiam facilisis, eros vitae gravida rhoncus, odio nunc interdum erat, sit amet semper risus nisi in tortor. Coordinado por el <strong>Jardín Botánico de Córdoba</strong>."
+   descripcion: "¿Te gustaría tarnsformar un solar en un huerto donde poder aprender a cultivar tus propios alimentos y hierbas arómaticas? Os enseñaremos los principios fundamentales para comenzar un huerto urbano en el solar. Coordinado por el <strong>Jardín Botánico de Córdoba</strong>."
 
  - titulo: Urbanismo para niños
    horario: 
@@ -35,7 +35,7 @@ actividad:
     hora: "De 10:30 a 12:00"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://eventbrite.es}
    subtitulo_inscripcion: "Hay n plazas libres"
-   descripcion: "Hemos preparado una actividad para que los más pequeños <strong>(niños de X a X años)</strong> conozcan la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong>Ms Pedagoga, educadora infantil y Antonio Lara, arquitecto</strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
+   descripcion: "Hemos preparado una actividad para que los más pequeños <strong>(niños de X a X años)</strong> conozcan la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong>Ms Y, educadora infantil y Antonio Lara, arquitecto</strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
 
 footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapiel · Código fuente compartido con licencia <a href=''> MIT</a>, textos e imágenes con licencia <a href=''>CC BY 3.0.</a> </br> Diseñado y hecho en <a href=''>Córdoba, Andalucía</a> · Hecho con <a href=''>github pages</a>, <a href=''>jekyll</a>, <a href=''>SASS</a>, <a href=''>Compass</a> y <a href=''>Sharrre</a>"
 
