@@ -3,7 +3,6 @@ layout: default
 title: "#UrbanismoDeBarrio"
 subtitulo: <a href='http://ayuncordoba.es/index.php?option=com_content&view=article&id=301:vela-de-la-fuensanta&catid=107:visita-la-provincia-y-fiestas-locales&Itemid=96'><span class='highlight'>Velá de la Fuensanta 2012</span></a>. 6 al 9 de Septiembre
 descripcion: "Queremos ayudar a recuperar el solar abandonado del antiguo Cine Fuensanta desde la participación vecinal y el debate. A través de diferentes actividades mostraremos alternativas para iniciar su recuperación ¡Te esperamos!"
-descripcion_corta: "#UrbanismoDeBarrio quiere iniciar la recuperación del solar abandonado del antiguo Cine Fuensanta desde la participación vecinal, el debate y la acción colectiva."
 creditos: 
  organizan: "Organizan: <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>"
  colaboran: "Colaboran: <a href='http://consejodistritosureste.blogspot.com.es/'><strong>Consejo Distrito Sureste</strong></a>, y AAVV Virgen de Linares"

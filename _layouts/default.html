@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html xmlns:og='http://opengraphprotocol.org/schema/>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7,8 +7,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>{{ page.title }}</title>
-	<meta name="description" content="">
+	<meta name="description" content="{{ page.subtitulo | strip_html }}. {{ page.descripcion }}">
 	<meta name="viewport" content="width=device-width">
+	<meta content='#UrbanismoDeBarrio' property='og:site_name'/>
+	<meta content='{{ page.subtitulo | strip_html }}. {{ page.descripcion }}' property='og:description'/>
+	<meta content='Colaborativa y Tercera Piel' property='og:author'/>
+	<meta content='{{ site.url }}/img/thumbnail.jpg' property='og:image'/>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="author" href="humans.txt" />
 	<link rel="stylesheet" href="css/normalize.css">
@@ -38,8 +42,8 @@
 				<p>{{ page.descripcion }}</p>
 				<div class="botonesSociales">
 					<div id="example1">
-					  <div id="twitter" data-url="http://urbanismodebarrio.com/" data-text="{{ page.descripcion_corta }}" data-title="t"></div>
-					  <div id="facebook" data-url="http://urbanismodebarrio.com/" data-text="{{ page.descripcion_corta }}" data-title="f"></div>
+					  <div id="twitter" data-url="http://urbanismodebarrio.com/" data-text="{{ page.subtitulo | strip_html }}. {{ page.descripcion }}" data-title="t"></div>
+					  <div id="facebook" data-url="http://urbanismodebarrio.com/" data-text="{{ page.subtitulo | strip_html }}. {{ page.descripcion }}" data-title="f"></div>
 				</div>
 			</header>
 			<section>
