@@ -53,7 +53,8 @@
 					<h2>{{ page.nota_inicial}}</h2>
 				</hgroup>
 				{% for item in page.actividad %}
-					<article>
+					<article >
+						<div class="imagen" style="background: url(img/{{ item.slug }}.png) left top no-repeat"></div>
 						<div class="horario">
 							<time class="fecha" datetime="{{ item.horario.fecha.formateada}}">{{ item.horario.fecha.natural}}</time>
 							<time class="hora" datetime="{{ item.horario.hora}}">{{ item.horario.hora }}</time>

@@ -159,6 +159,13 @@ a:link, a:visited, a:hover{
 			@include clearfix;
 			position: relative;
 			background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
+			.imagen{
+				position: absolute;
+				width: 370px;
+				height: 240px;
+				opacity: 0.6;
+				top: -30px;
+			}
 			.horario{
 				@include clearfix;
 				width: 375px;
