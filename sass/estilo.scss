@@ -94,6 +94,7 @@ a:link, a:visited, a:hover{
 				padding:0px;
 				a:link{
 					@include transition(text-decoration .1s linear);
+					font-weight:bold;
 				}
 				a:hover{
 					text-decoration: underline;
