@@ -39,7 +39,7 @@ actividad:
     hora: "De 10:30 a 12:00"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://ninos-urbanismodebarrio.eventbrite.es }
    subtitulo_inscripcion: "Hay n plazas libres"
-   descripcion: "Hemos preparado una actividad para que los más pequeños <strong>(niños de X a X años)</strong> conozcan la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong>Laura Paños, arquitecta y profesora</strong>, y <strong>Antonio Lara, arquitecto</strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
+   descripcion: "Hemos preparado una actividad para que los más pequeños conozcan la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong>Laura Paños, arquitecta y profesora</strong>, y <strong>Antonio Lara, arquitecto</strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
 
 footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapiel · Código fuente compartido con licencia <a href=''> MIT</a>, textos e imágenes con licencia <a href=''>CC BY 3.0.</a> </br> Diseñado y hecho en <a href=''>Córdoba, Andalucía</a> · Hecho con <a href=''>github pages</a>, <a href=''>jekyll</a>, <a href=''>SASS</a>, <a href=''>Compass</a> y <a href=''>Sharrre</a>"
 
