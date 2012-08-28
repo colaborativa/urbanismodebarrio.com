@@ -160,8 +160,7 @@ a:link, a:visited, a:hover{
 			@include clearfix;
 			position: relative;
 			background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
-			.imagen{
-				-webkit-print-color-adjust: exact;
+			.imagen-img{
 				position: absolute;
 				width: 370px;
 				height: 240px;
@@ -299,6 +298,11 @@ footer{
 					margin: 1cm 0cm 0.75cm 0cm;
 					padding: 0cm 0cm 0.5cm 0cm;
 					border-bottom: 1pt dotted silver;
+					.imagen-img{
+						height:5cm;
+						padding: 0.2cm 0cm 0cm 1cm;
+						width: 7.5cm;
+					}
 					.horario{
 						@include box-sizing (border-box);
 						margin: 0cm;

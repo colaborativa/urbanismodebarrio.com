@@ -54,7 +54,7 @@
 				</hgroup>
 				{% for item in page.actividad %}
 					<article >
-						<div class="imagen" style="background: url(img/{{ item.slug }}.png) left top no-repeat"></div>
+						<img class="imagen-img" src="img/{{ item.slug }}.png" width= "370px" height="240px" />
 						<div class="horario">
 							<time class="fecha" datetime="{{ item.horario.fecha.formateada}}">{{ item.horario.fecha.natural}}</time>
 							<time class="hora" datetime="{{ item.horario.hora}}">{{ item.horario.hora }}</time>
