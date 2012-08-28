@@ -46,6 +46,6 @@ footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapie
 nota_inicial: "Todas las actividades tienen lugar en el <span class='highlight'><a href='http://goo.gl/maps/Ka4hT'>solar del antiguo Cine Fuensanta</a></span> en la calle Hernando de Magallanes <span class='ocultaImprime'>(detrás del centro de adultos Fuensanta)</span>"
 
 nota_final: "Para coordinar mejor las actividades te agradecemos que realices la inscripción. No obstante, también puedes presentarte directamente en el solar el mismo día de la actividad."
-nota_final_web: "Puedes contactar con nosotros a través de <a href='#'>Facebook</a> o email <a href='#'><span id='my-email'>por favor activa javascript para ver el email</span></a>"
+nota_final_web: "Puedes contactar con nosotros a través de <a href='https://www.facebook.com/UrbanismoDeBarrio'>Facebook</a> o email <a href='#'><span id='my-email'>por favor activa javascript para ver el email</span></a>"
 nota_final_impresa: "Para más información y reservar tu plaza visita <a href='#'>www.urbanismodebarrio.com</a>"
 ---
