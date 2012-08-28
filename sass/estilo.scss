@@ -161,6 +161,7 @@ a:link, a:visited, a:hover{
 			position: relative;
 			background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
 			.imagen{
+				-webkit-print-color-adjust: exact;
 				position: absolute;
 				width: 370px;
 				height: 240px;
