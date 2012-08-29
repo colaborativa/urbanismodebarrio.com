@@ -13,14 +13,14 @@ actividad:
  - titulo: Paseo guiado por el barrio
    slug: paseo
    horario: 
-    fecha: {natural: 6 de Septiembre, formateada: 2012-09-06 }
+    fecha: {natural: Jueves 6 de Septiembre, formateada: 2012-09-06 }
     hora: " De 20:30 a 21:30"
    inscripcion: {titulo: sin inscripción previa }
    descripcion: "¿Quieres conocer más sobre la Fuensanta y el solar que recuperaremos? ¿Tienes <span class='highlight'>fotos antiguas</span> y quieres compartirlas con nosotros? Acompáñanos en un paseo que comenzará en el solar las 20:30 y terminará a las 21:30 en el Pocito para la lectura del pregón inaugural."
  - titulo: Taller de mobiliario urbano reciclado
    slug: mobiliario
    horario: 
-    fecha: {natural: 7 de Septiembre, formateada: 2012-09-07 }
+    fecha: {natural: Viernes 7 de Septiembre, formateada: 2012-09-07 }
     hora: "De 10:00 a 12:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://tallermobiliario-urbanismodebarrio.eventbrite.es  }
    descripcion: "Un banco, una farola o una pérgola pueden transformar un solar abandonado en un espacio público lleno de vida. Os mostraremos iniciativas que se han realizado en otros barrios y construiremos unos bancos para el solar. Coordinado por <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>."
@@ -28,7 +28,7 @@ actividad:
  - titulo: Taller de huertos urbanos
    slug: huertos
    horario: 
-    fecha: {natural: 8 de Septiembre, formateada: 2012-09-08 }
+    fecha: {natural: Sábado 8 de Septiembre, formateada: 2012-09-08 }
     hora: "De 10:00 a 12:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://huertos-urbanismodebarrio.eventbrite.es  }
    descripcion: "¿Te gustaría transformar un solar en un huerto donde poder aprender a cultivar tus propias hierbas aromáticas y alimentos? Os enseñaremos los principios fundamentales para comenzar un huerto urbano en el solar. Coordinado por <strong><a href='http://www.jardinbotanicodecordoba.com/'>Rafael Blázquez, Dinamizador del Aula de la Naturaleza de la Asomadilla del IMGEMA Jardín Botánico de Córdoba</a></strong>."
@@ -36,7 +36,7 @@ actividad:
  - titulo: Urbanismo para niños
    slug: infantil
    horario: 
-    fecha: {natural: 9 de Septiembre, formateada: 2012-09-09 }
+    fecha: {natural: Domingo 9 de Septiembre, formateada: 2012-09-09 }
     hora: "De 10:00 a 11:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://ninos-urbanismodebarrio.eventbrite.es }
    subtitulo_inscripcion: "Hay n plazas libres"
