@@ -23,7 +23,7 @@ actividad:
     fecha: {natural: 7 de Septiembre, formateada: 2012-09-07 }
     hora: "De 10:00 a 12:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://tallermobiliario-urbanismodebarrio.eventbrite.es  }
-   descripcion: "Un banco, una farola o una pérgola pueden transformar un solar abandonado en un espacio público lleno de vida. Os mostraremos iniciativas que se han realizado en otros barrios y construiremos unos bancos para el solar. Coordinado por <strong>Colaborativa</strong> y <strong>Tercera Piel Arquitectura</strong>."
+   descripcion: "Un banco, una farola o una pérgola pueden transformar un solar abandonado en un espacio público lleno de vida. Os mostraremos iniciativas que se han realizado en otros barrios y construiremos unos bancos para el solar. Coordinado por <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>."
 
  - titulo: Taller de huertos urbanos
    slug: huertos
@@ -31,16 +31,16 @@ actividad:
     fecha: {natural: 8 de Septiembre, formateada: 2012-09-08 }
     hora: "De 10:00 a 12:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://huertos-urbanismodebarrio.eventbrite.es  }
-   descripcion: "¿Te gustaría transformar un solar en un huerto donde poder aprender a cultivar tus propios alimentos y hierbas aromáticas? Os enseñaremos los principios fundamentales para comenzar un huerto urbano en el solar. Coordinado por <strong> Rafael Bláquez, Dinamizador del Aula de la Naturaleza de la Asomadilla del IMGEMA Jardín Botánico de Córdoba</strong>."
+   descripcion: "¿Te gustaría transformar un solar en un huerto donde poder aprender a cultivar tus propias hierbas aromáticas y alimentos? Os enseñaremos los principios fundamentales para comenzar un huerto urbano en el solar. Coordinado por <strong><a href='http://www.jardinbotanicodecordoba.com/'>Rafael Blázquez, Dinamizador del Aula de la Naturaleza de la Asomadilla del IMGEMA Jardín Botánico de Córdoba</a></strong>."
 
  - titulo: Urbanismo para niños
    slug: infantil
    horario: 
     fecha: {natural: 9 de Septiembre, formateada: 2012-09-09 }
-    hora: "De 10:30 a 12:00"
+    hora: "De 10:00 a 11:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://ninos-urbanismodebarrio.eventbrite.es }
    subtitulo_inscripcion: "Hay n plazas libres"
-   descripcion: "Hemos preparado una actividad para que los más pequeños conozcan la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong>Antonio Lara, arquitecto</strong>, y <strong>Laura Paños, arquitecta y profesora</strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
+   descripcion: "Hemos preparado una actividad para que los más pequeños conozcan la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong><a href='http://www.almarquitectura.com'>Antonio Lara, arquitecto</a></strong>, y <strong><a href='http://www.lap-arquitectos.com'>Laura Paños, arquitecta y profesora</a></strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
 
 footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapiel · Código fuente compartido con licencia <a href=''> MIT</a>, textos e imágenes con licencia <a href=''>CC BY 3.0.</a> </br> Diseñado y hecho en <a href=''>Córdoba, Andalucía</a> · Hecho con <a href=''>github pages</a>, <a href=''>jekyll</a>, <a href=''>SASS</a>, <a href=''>Compass</a> y <a href=''>Sharrre</a>"
 
