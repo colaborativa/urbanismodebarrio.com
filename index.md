@@ -1,12 +1,13 @@
 ---
 layout: default
 title: "#UrbanismoDeBarrio"
-subtitulo: "<a href='http://ayuncordoba.es/index.php?option=com_content&view=article&id=301:vela-de-la-fuensanta&catid=107:visita-la-provincia-y-fiestas-locales&Itemid=96'><span class='highlight'>Velá de la Fuensanta 2012</span></a>. 6 al 9 de Septiembre
+subtitulo: "<a href='http://ayuncordoba.es/index.php?option=com_content&view=article&id=301:vela-de-la-fuensanta&catid=107:visita-la-provincia-y-fiestas-locales&Itemid=96'><span class='highlight'>Velá de la Fuensanta 2012</span></a>. 6 al 9 de Septiembre"
 descripcion: "Queremos ayudar a recuperar el solar del antiguo Cine Fuensanta desde la participación vecinal y el debate. A través de diferentes actividades mostraremos alternativas para iniciar su recuperación ¡Te esperamos!"
+descripcion_corta: "Participa en la recuperación del solar del antiguo Cine Fuensanta"
 creditos: 
  organizan: "Organizan: <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>"
- colaboran: "Colaboran: <a href='http://consejodistritosureste.blogspot.com.es/'><strong>Consejo Distrito Sureste</strong></a> ·  AAVV Virgen de Linares · <a href='http://www.jardinbotanicodecordoba.com/'>Jardín Botánico de Córdoba</a> · <a href='http://www.imdcordoba.org/'>Instituto Municipal de Deportes</a> · <a href='http://www.almarquitectura.com'>Antonio Lara, arquitecto alm arquitectura</a> · <a href='http://www.lap-arquitectos.com'>Laura Paños, socia de LAP arquitectos</a>"
-imprimir_notificacion: "Necesitamos tu ayuda para difundir la actividad, haz click para imprimir el poster y colócalo por el barrio ¡Muchas gracias!"
+ colaboran: "Colaboran: <a href='http://consejodistritosureste.blogspot.com.es/'><strong>Consejo Distrito Sureste</strong></a> ·  AAVV Virgen de Linares · <a href='http://www.ipepcordoba.es/ipepcordoba/index.html/'>Instituto Provincial de Educación Permanente de Córdoba</a> · <a href='http://www.jardinbotanicodecordoba.com/'>Jardín Botánico de Córdoba</a> · <a href='http://www.imdcordoba.org/'>Instituto Municipal de Deportes</a> · <a href='http://www.almarquitectura.com'>Antonio Lara, arquitecto alm arquitectura</a> · <a href='http://www.lap-arquitectos.com'>Laura Paños, socia de LAP arquitectos</a>"
+imprimir_notificacion: "Necesitamos tu ayuda para difundir la actividad, haz click para imprimir el póster y colócalo por el barrio ¡Muchas gracias!"
 
 actividad:
  - titulo: Paseo guiado por el barrio
@@ -30,7 +31,7 @@ actividad:
     fecha: {natural: 8 de Septiembre, formateada: 2012-09-08 }
     hora: "De 10:00 a 12:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://huertos-urbanismodebarrio.eventbrite.es  }
-   descripcion: "¿Te gustaría tarnsformar un solar en un huerto donde poder aprender a cultivar tus propios alimentos y hierbas arómaticas? Os enseñaremos los principios fundamentales para comenzar un huerto urbano en el solar. Coordinado por el <strong> Jardín Botánico de Córdoba</strong>."
+   descripcion: "¿Te gustaría transformar un solar en un huerto donde poder aprender a cultivar tus propios alimentos y hierbas aromáticas? Os enseñaremos los principios fundamentales para comenzar un huerto urbano en el solar. Coordinado por <strong> Rafael Bláquez, Dinamizador del Aula de la Naturaleza de la Asomadilla del IMGEMA Jardín Botánico de Córdoba</strong>."
 
  - titulo: Urbanismo para niños
    slug: infantil
@@ -39,13 +40,13 @@ actividad:
     hora: "De 10:30 a 12:00"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://ninos-urbanismodebarrio.eventbrite.es }
    subtitulo_inscripcion: "Hay n plazas libres"
-   descripcion: "Hemos preparado una actividad para que los más pequeños conozcan la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong>Laura Paños, arquitecta y profesora</strong>, y <strong>Antonio Lara, arquitecto</strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
+   descripcion: "Hemos preparado una actividad para que los más pequeños conozcan la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong>Antonio Lara, arquitecto</strong>, y <strong>Laura Paños, arquitecta y profesora</strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
 
 footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapiel · Código fuente compartido con licencia <a href=''> MIT</a>, textos e imágenes con licencia <a href=''>CC BY 3.0.</a> </br> Diseñado y hecho en <a href=''>Córdoba, Andalucía</a> · Hecho con <a href=''>github pages</a>, <a href=''>jekyll</a>, <a href=''>SASS</a>, <a href=''>Compass</a> y <a href=''>Sharrre</a>"
 
-nota_inicial: "Todas las actividades tienen lugar en el <span class='highlight'><a href='http://goo.gl/maps/Ka4hT'>solar del antiguo Cine Fuensanta</a></span> en la calle Hernando de Magallanes <span class='ocultaImprime'>(detrás del centro de adultos Fuensanta)</span>"
+nota_inicial: "Todas las actividades tienen lugar en el <span class='highlight'><a href='http://goo.gl/maps/Ka4hT'>solar del antiguo Cine Fuensanta</a></span> en la calle Hernando de Magallanes"
 
-nota_final: "Para coordinar mejor las actividades te agradecemos que realices la inscripción. No obstante, también puedes presentarte directamente en el solar el mismo día de la actividad."
+nota_final: "Para coordinar mejor las actividades te agradecemos que realices la inscripción. No obstante, puedes presentarte directamente en el solar el mismo día de la actividad."
 nota_final_web: "Puedes contactar con nosotros a través de <a href='https://www.facebook.com/UrbanismoDeBarrio'>Facebook</a> o email <a href='#'><span id='my-email'>por favor activa javascript para ver el email</span></a>"
 nota_final_impresa: "Para más información y reservar tu plaza visita <a href='#'>www.urbanismodebarrio.com</a>"
 ---

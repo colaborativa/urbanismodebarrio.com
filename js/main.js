@@ -4,7 +4,7 @@ $('#twitter').sharrre({
   },
   enableHover: false,
   enableTracking: true,
-  buttons: { twitter: {via: '_JulienH'}},
+  buttons: { twitter: {via: ''}},
   click: function(api, options){
     api.simulateClick();
     api.openPopup('twitter');
