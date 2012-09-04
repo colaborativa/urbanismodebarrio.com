@@ -40,7 +40,7 @@ actividad:
     hora: "De 10:00 a 11:30"
    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://ninos-urbanismodebarrio.eventbrite.es }
    subtitulo_inscripcion: "Hay n plazas libres"
-   descripcion: "Los más pequeños construirán una maqueta y un collage, diseñarán su barrio ideal y conocerán la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong><a href='http://www.almarquitectura.com'>Antonio Lara, arquitecto</a></strong>, y <strong><a href='http://www.lap-arquitectos.com'>Laura Paños, arquitecta y profesora</a></strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00."
+   descripcion: "Los más pequeños construirán una maqueta y un collage, diseñarán su barrio ideal y conocerán la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong><a href='http://www.almarquitectura.com'>Antonio Lara, arquitecto</a></strong>, y <strong><a href='http://www.lap-arquitectos.com'>Laura Paños, arquitecta y profesora</a></strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00. Material de dibujo cedido por el <a href=' http://www.divinapastoracordoba.org'>Colegio Divina Pastora</a>."
 
 footer: "diseño web @colaborativaeu · contenidos @colaborativaeu y @tercerapiel · Código fuente compartido con licencia <a href=''> MIT</a>, textos e imágenes con licencia <a href=''>CC BY 3.0.</a> </br> Diseñado y hecho en <a href=''>Córdoba, Andalucía</a> · Hecho con <a href=''>github pages</a>, <a href=''>jekyll</a>, <a href=''>SASS</a>, <a href=''>Compass</a> y <a href=''>Sharrre</a>"
 
