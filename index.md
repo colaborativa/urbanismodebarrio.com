@@ -7,7 +7,8 @@ creditos:
  organizan: "Organizan: <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>"
  colaboran: "Colaboran: <a href='http://consejodistritosureste.blogspot.com.es/'><strong>Consejo Distrito Sureste</strong></a>, y AAVV Virgen de Linares"
 imprimir_notificacion: "Necesitamos tu ayuda para difundir la actividad, haz click para imprimir el poster y colócalo por el barrio ¡Muchas gracias!"
-
+campana_goteo: "Comenzamos una Campaña de cofinanciación en Goteo.org para instalar una valla que proteja el huerto ¡Gracias por compartir!"
+campana_goteo_descripcion: "<h1>Un huerto social y ecológico en el barrio de la Fuensanta</h1><p>Los vecinos de la Fuensanta en Córdoba estamos recuperando un solar público abandonado para transformarlo en un huerto social y ecológico.</p><p>El solar del Antiguo Cine Fuensanta situado en la calle Hernando de Magallanes lleva más de 20 años abandonado y se encuentra en el corazón del barrio, por lo que consideramos que es el lugar más adecuado para comenzar.</p><p>Desde la demolición del cine del barrio que ocupaba el solar, este espacio público se ha utilizado puntualmente para jugar al fútbol y asiduamente como parque canino. La acumulación de excrementos de perros y el abandono municipal han provocado su dejadez total.</p><p>A través de la construcción del huerto Fuensanta queremos recuperar este solar y devolverlo a la vida para el disfrute de todo el barrio tal como ocurría cuando el cine aún estaba en pie.</p>"
 actividad:
  - titulo: Paseo guiado por el barrio
    horario: 
