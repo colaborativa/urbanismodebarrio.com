@@ -4,7 +4,7 @@
 @import "sharrre";
 
 body{
-	background-image: url("/img/purty_wood.png");
+	background-image: url("/img/purty_wood.jpg");
 }
 a:link, a:visited, a:hover{
 	text-decoration: none;
@@ -92,8 +92,10 @@ a:link, a:visited, a:hover{
 				font: 12px/20px 'Open Sans', sans-serif;
 				margin:0px;
 				padding:0px;
+				margin-bottom: 10px;
 				a:link{
 					@include transition(text-decoration .1s linear);
+					font-weight:bold;
 				}
 				a:hover{
 					text-decoration: underline;
@@ -159,6 +161,14 @@ a:link, a:visited, a:hover{
 			@include clearfix;
 			position: relative;
 			background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
+			.imagen-img{
+				position: absolute;
+				width: 370px;
+				height: 240px;
+				opacity: 0.6;
+				top: -30px;
+				left: 0px;
+			}
 			.horario{
 				@include clearfix;
 				width: 375px;
@@ -234,7 +244,7 @@ footer{
 	@page  { 
 		size: auto;
 		width:100%;
-		margin: 10mm 10mm 10mm 10mm;  
+		margin: 5mm 10mm 10mm 10mm;  
 	}
 	.botonesSociales, footer, .piePagina, .imprimir{
 		display: none;
@@ -290,6 +300,11 @@ footer{
 					margin: 1cm 0cm 0.75cm 0cm;
 					padding: 0cm 0cm 0.5cm 0cm;
 					border-bottom: 1pt dotted silver;
+					.imagen-img{
+						height:5cm;
+						padding: 0.2cm 0cm 0cm 1cm;
+						width: 7.5cm;
+					}
 					.horario{
 						@include box-sizing (border-box);
 						margin: 0cm;
