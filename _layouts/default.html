@@ -9,7 +9,7 @@
 	<meta content='http://urbanismodebarrio.com' property='og:url'/>
 	<meta content='{{ page.title }}' property='og:title'/>
 	<meta content='{{ page.subtitulo | strip_html }}. {{ page.descripcion }}' property='og:description'/>
-	<meta content='Colaborativa y Tercera Piel' property='og:author'/>
+	<meta content='Colaborativa' property='og:author'/>
 	<meta content='http://urbanismodebarrio.com/img/facebook-thumbnail.jpg' property='og:image'/>
 	<link rel="shortcut icon" href="http://urbanismodebarrio.com/favicon.ico" rel="icon" type="image/x-icon" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
@@ -23,21 +23,7 @@
 		<!--[if lt IE 7]>
 			<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
 		<![endif]-->
-		<div class="imprimir" id="imprimir">
-			<p>
-				<span class="icon-print"></span><span class="print"><a href="http://goteo.org/project/huerto-fuensanta">{{page.campana_goteo}}</a></span>
-			</p>
-		</div>
 		<div class="contenedor">
-			<div class="goteo">
-				<div class="goteo-texto">
-					<p>{{ page.campana_goteo_descripcion }}</p>
-				</div>
-				<div class="goteo-frame">
-					<iframe frameborder="0" height="480px" src="http://goteo.org/widget/project/huerto-fuensanta?lang=es" width="250px" scrolling="no"></iframe>
-				</div>
-				<p class="nota">{{ page.campana_goteo_origen }}</p>
-			</div>
 			<header>
 				<hgroup>
 					<h1>{{ page.title }}</h1>
@@ -50,39 +36,7 @@
 					  <div id="facebook" data-url="http://urbanismodebarrio.com/" data-text="{{ page.subtitulo | strip_html }}. {{ page.descripcion }}" data-title="f"></div>
 				</div>
 			</header>
-			<section>
-				<hgroup>
-					<h1>Programación</h1>
-					<h2>{{ page.nota_inicial}}</h2>
-				</hgroup>
-				{% for item in page.actividad %}
-					<article >
-						<img class="imagen-img" src="img/{{ item.slug }}.png" width= "370px" height="240px" />
-						<div class="horario">
-							<time class="fecha" datetime="{{ item.horario.fecha.formateada}}">{{ item.horario.fecha.natural}}</time>
-							<time class="hora" datetime="{{ item.horario.hora}}">{{ item.horario.hora }}</time>
-							{% if item.inscripcion.url %}
-								<p class="inscripcion"><span class="highlight"><a href="{{ item.inscripcion.url }}">{{ item.inscripcion.titulo }}</a></span></p>
-							{% else %}
-								<p class="inscripcion">{{ item.inscripcion.titulo }}</p>
-							{% endif %}
-						</div>
-						<div class="informacion">
-							<h1>{{ item.titulo}}</h1>
-							<p>{{ item.descripcion }}</p>
-						</div>
-					</article>
-				{% endfor %}
-				<p class="notapie">{{ page.nota_final}} <span class="nota_web">{{ page.nota_final_web}}</span><span class="nota_impresa">{{ page.nota_final_impresa}}</span></p>
-			</section>
-			<div class="piePagina">
-			</div>
 		</div>
-		<footer>
-			<p>{{ page.footer }}</p>
-			<p>{{ page.creditos.organizan }}</p>
-			<p>{{ page.creditos.colaboran }}</p>
-		</footer>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
 		<script src="js/vendor/jquery.sharrre-1.3.2.min.js"></script>

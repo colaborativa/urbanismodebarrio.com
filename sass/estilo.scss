@@ -16,7 +16,7 @@ a:link, a:visited, a:hover{
 		top:0px;
 	}
 	top:-35px;
-	@include transition(top .5s ease-in-out 2s);
+	//@include transition(top .5s ease-in-out 2s);
 	z-index:1000;
 	position:fixed;
 	width:100%;
@@ -86,7 +86,6 @@ a:link, a:visited, a:hover{
 		@include clearfix;
 		width:780px;
 		margin:20px 90px 20px 110px;
-		background: url(/img/linea-a-mano-1px.png) center top no-repeat;
 		.creditos{
 			width:780px;
 			margin-top:30px;
