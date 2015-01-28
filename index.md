@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default 
 title: "#UrbanismoDeBarrio"
 subtitulo: "<a href='http://ayuncordoba.es/index.php?option=com_content&view=article&id=301:vela-de-la-fuensanta&catid=107:visita-la-provincia-y-fiestas-locales&Itemid=96'><span class='highlight'>Velá de la Fuensanta 2012</span></a>. 6 al 9 de Septiembre"
 descripcion: "Queremos ayudar a recuperar el solar del antiguo Cine Fuensanta desde la participación vecinal y el debate. A través de diferentes actividades mostraremos alternativas para iniciar su recuperación ¡Te esperamos!"
@@ -24,15 +24,15 @@ actividad:
    horario: 
     fecha: {natural: Viernes 7 de Septiembre, formateada: 2012-09-07 }
     hora: "De 10:00 a 12:30"
-   inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://tallermobiliario-urbanismodebarrio.eventbrite.es  }
-   descripcion: "Un banco, una farola o una pérgola pueden transformar un solar abandonado en un espacio público lleno de vida. Os mostraremos iniciativas que se han realizado en otros barrios y construiremos unos bancos para el solar. Coordinado por <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>."
+    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: "http://tallermobiliario-urbanismodebarrio.eventbrite.es"  }
+    descripcion: "Un banco, una farola o una pérgola pueden transformar un solar abandonado en un espacio público lleno de vida. Os mostraremos iniciativas que se han realizado en otros barrios y construiremos unos bancos para el solar. Coordinado por <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>."
 
  - titulo: Taller de huertos urbanos
    slug: huertos
    horario: 
     fecha: {natural: Sábado 8 de Septiembre, formateada: 2012-09-08 }
     hora: "De 10:00 a 12:30"
-   inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://huertos-urbanismodebarrio.eventbrite.es  }
+   inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: "http://huertos-urbanismodebarrio.eventbrite.es"  }
    descripcion: "¿Te gustaría transformar un solar en un huerto donde poder aprender a cultivar tus propias hierbas aromáticas y alimentos? Os enseñaremos los principios fundamentales para comenzar un huerto urbano en el solar. Coordinado por <strong><a href='http://www.jardinbotanicodecordoba.com/'>Rafael Blázquez, Dinamizador del Aula de la Naturaleza de la Asomadilla del IMGEMA Jardín Botánico de Córdoba</a></strong>."
 
  - titulo: Urbanismo para niños
@@ -40,7 +40,7 @@ actividad:
    horario: 
     fecha: {natural: Domingo 9 de Septiembre, formateada: 2012-09-09 }
     hora: "De 10:00 a 11:30"
-   inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: http://ninos-urbanismodebarrio.eventbrite.es }
+   inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: "http://ninos-urbanismodebarrio.eventbrite.es" }
    subtitulo_inscripcion: "Hay n plazas libres"
    descripcion: "Los más pequeños construirán una maqueta y un collage, diseñarán su barrio ideal y conocerán la importancia del espacio público en nuestros barrios. La actividad estará coordinada por <strong><a href='http://www.almarquitectura.com'>Antonio Lara, arquitecto</a></strong>, y <strong><a href='http://www.lap-arquitectos.com'>Laura Paños, arquitecta y profesora</a></strong>. Terminaremos a las 11:30 justo a tiempo para disfrutar de la huevada de las 12:00. Material de dibujo cedido por el <a href=' http://www.divinapastoracordoba.org'>Colegio Divina Pastora</a>."
 
