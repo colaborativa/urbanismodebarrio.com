@@ -24,8 +24,8 @@ actividad:
    horario: 
     fecha: {natural: Viernes 7 de Septiembre, formateada: 2012-09-07 }
     hora: "De 10:00 a 12:30"
-    inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: "http://tallermobiliario-urbanismodebarrio.eventbrite.es"  }
-    descripcion: "Un banco, una farola o una pérgola pueden transformar un solar abandonado en un espacio público lleno de vida. Os mostraremos iniciativas que se han realizado en otros barrios y construiremos unos bancos para el solar. Coordinado por <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>."
+   inscripcion: {titulo: "¡Reserva tu plaza, es gratis!", url: "http://tallermobiliario-urbanismodebarrio.eventbrite.es"  }
+   descripcion: "Un banco, una farola o una pérgola pueden transformar un solar abandonado en un espacio público lleno de vida. Os mostraremos iniciativas que se han realizado en otros barrios y construiremos unos bancos para el solar. Coordinado por <a href='http://colaborativa.eu'><strong>Colaborativa</strong></a> y <a href='http://edificioscontenedor.blogspot.com.es/'><strong>Tercera Piel Arquitectura</strong></a>."
 
  - titulo: Taller de huertos urbanos
    slug: huertos
